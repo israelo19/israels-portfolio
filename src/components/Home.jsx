@@ -41,7 +41,7 @@ const Home = () => {
           <img
             src={me}
             alt="my profile"
-            className="rounded-2xl mx-auto w-2/3 md:w-full transition transform duration-700 ease-in-out hover:rotate-[360deg]"
+            className="rounded-2xl mx-auto w-2/3 md:w-full transition transform duration-700 ease-in-out]"
           />
         </div>
       </div>

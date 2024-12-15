@@ -15,13 +15,13 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
+    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#000000] text-gray-300">
       <div>
 
       {/* <span className="block transition-opacity duration-300 group-hover:opacity-0"> */}
         <h1 className="relative group font-thin text-2xl  font-serif">
         <span className="block transition-opacity duration-300 group-hover:opacity-0">
-          IO
+          Israel Ogwu
         </span>
         <span className= "absolute top-0 left-0 opacity-0 transition-opacity duration-300 group-hover:opacity-100 text-nowrap">
             HE &gt; i
@@ -32,32 +32,32 @@ const Navbar = () => {
       <ul className="hidden md:flex gap-x-8">
         <li>
           <Link to="home" smooth={true} duration={500} className="group">
-            <span className="text-green-300 group-hover:text-green-400">$</span>
-            Home
+            <span className="text-green-300 group-hover:text-green-600">$Home</span>
+            
           </Link>
         </li>
         <li>
           <Link to="about" smooth={true} duration={500} className="group">
-            <span className="text-green-300 group-hover:text-green-400">$</span>
-            About
+            <span className="text-green-300 group-hover:text-green-600">$About</span>
+            
           </Link>
         </li>
         <li>
           <Link to="skills" smooth={true} duration={500} className="group">
-            <span className="text-green-300 group-hover:text-green-400">$</span>
-            Skills
+            <span className="text-green-300 group-hover:text-green-600">$Skills</span>
+            
           </Link>
         </li>
         <li>
           <Link to="experience" smooth={true} duration={500} className="group">
-            <span className="text-green-300 group-hover:text-green-400">$</span>
-            Work Experience
+            <span className="text-green-300 group-hover:text-green-600">$Work Experience</span>
+            
           </Link>
         </li>
         <li>
           <Link to="contact" smooth={true} duration={500} className="group">
-            <span className="text-green-300 group-hover:text-green-400">$</span>
-            Contact
+            <span className="text-green-300 group-hover:text-green-600">$Contact</span>
+            
           </Link>
         </li>
       </ul>
