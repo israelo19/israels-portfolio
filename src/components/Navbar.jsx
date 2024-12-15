@@ -17,7 +17,16 @@ const Navbar = () => {
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
       <div>
-        <h1 className=" font-thin text-2xl italic font-serif">IO</h1>
+
+      {/* <span className="block transition-opacity duration-300 group-hover:opacity-0"> */}
+        <h1 className="relative group font-thin text-2xl  font-serif">
+        <span className="block transition-opacity duration-300 group-hover:opacity-0">
+          IO
+        </span>
+        <span className= "absolute top-0 left-0 opacity-0 transition-opacity duration-300 group-hover:opacity-100 text-nowrap">
+            HE &gt; i
+        </span>
+        </h1>
       </div>
       {/* menu */}
       <ul className="hidden md:flex gap-x-8">
