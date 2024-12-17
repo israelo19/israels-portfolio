@@ -50,7 +50,7 @@ const Navbar = () => {
         </li>
         <li>
           <Link to="experience" smooth={true} duration={500} className="group">
-            <span className="text-green-300 group-hover:text-green-600">$Work Experience</span>
+            <span className="text-green-300 group-hover:text-green-600">$Projects</span>
             
           </Link>
         </li>
