@@ -9,6 +9,7 @@ const Home = () => {
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className="flex flex-col justify-center h-full">
           {/* <h2 className=""> */}
+          <span className="animate-slide-in [animation-delay:200ms]">
           <h2 className="relative group text-4xl sm:text-7xl font-bold text-white">
             <span className="block transition-opacity duration-300 group-hover:opacity-0">
               Computer Science Major by day...
@@ -36,6 +37,7 @@ const Home = () => {
               </span>
             </Link>
           </div>
+          </span>
         </div>
         <div>
           <img
